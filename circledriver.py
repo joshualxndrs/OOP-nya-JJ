@@ -16,6 +16,6 @@ def main():
     circle_1.setheight(change_height)
     circle_1.setcolor(change_color)
 
-    print(f"Updated circle radius is {circle_1.getradius()}, height is {circle_1.getheight()} , color is {circle_1.getcolor()} color")
+    print(f"Updated circle radius is {circle_1.getradius()}, height is {circle_1.getheight()} , color is {circle_1.getcolor()} color, area is {circle_1.getArea():.2f}, volume is {circle_1.getvolume():.2f} ")
 
 main()
