@@ -11,7 +11,7 @@ class lingkaran:
     def setcolor(self, new_color):
         self.__color = new_color
     def setradius(self, new_radius):
-        self.__radius = new_radius * 2
+        self.__radius = new_radius
     def tostring(self):
         return f"radius: {self.getradius()}" + "\n" + f"Color: {self.getcolor()}"
 
